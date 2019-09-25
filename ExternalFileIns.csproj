@@ -96,29 +96,6 @@
     <None Include="app.manifest">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Poppler\poppler-0.68.0\bin\AUTHORS" />
-    <None Include="Poppler\poppler-0.68.0\bin\BINARIES" />
-    <None Include="Poppler\poppler-0.68.0\bin\COPYING" />
-    <None Include="Poppler\poppler-0.68.0\bin\COPYING3" />
-    <None Include="Poppler\poppler-0.68.0\bin\README" />
-    <None Include="Poppler\poppler-0.68.0\bin\README-XPDF" />
-    <None Include="Poppler\poppler-0.68.0\lib\libpoppler-cpp.dll.a" />
-    <None Include="Poppler\poppler-0.68.0\lib\libpoppler.dll.a" />
-    <None Include="Poppler\poppler-0.68.0\lib\pkgconfig\poppler-cairo.pc" />
-    <None Include="Poppler\poppler-0.68.0\lib\pkgconfig\poppler-cpp.pc" />
-    <None Include="Poppler\poppler-0.68.0\lib\pkgconfig\poppler-splash.pc" />
-    <None Include="Poppler\poppler-0.68.0\lib\pkgconfig\poppler.pc" />
-    <None Include="Poppler\poppler-0.68.0\share\man\man1\pdfdetach.1" />
-    <None Include="Poppler\poppler-0.68.0\share\man\man1\pdffonts.1" />
-    <None Include="Poppler\poppler-0.68.0\share\man\man1\pdfimages.1" />
-    <None Include="Poppler\poppler-0.68.0\share\man\man1\pdfinfo.1" />
-    <None Include="Poppler\poppler-0.68.0\share\man\man1\pdfseparate.1" />
-    <None Include="Poppler\poppler-0.68.0\share\man\man1\pdftocairo.1" />
-    <None Include="Poppler\poppler-0.68.0\share\man\man1\pdftohtml.1" />
-    <None Include="Poppler\poppler-0.68.0\share\man\man1\pdftoppm.1" />
-    <None Include="Poppler\poppler-0.68.0\share\man\man1\pdftops.1" />
-    <None Include="Poppler\poppler-0.68.0\share\man\man1\pdftotext.1" />
-    <None Include="Poppler\poppler-0.68.0\share\man\man1\pdfunite.1" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -128,9 +105,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
@@ -143,43 +117,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Poppler\poppler-0.68.0\bin\freetype6.dll" />
-    <Content Include="Poppler\poppler-0.68.0\bin\jpeg62.dll" />
-    <Content Include="Poppler\poppler-0.68.0\bin\libcairo-2.dll" />
-    <Content Include="Poppler\poppler-0.68.0\bin\libexpat-1.dll" />
-    <Content Include="Poppler\poppler-0.68.0\bin\libfontconfig-1.dll" />
-    <Content Include="Poppler\poppler-0.68.0\bin\libgcc_s_dw2-1.dll" />
-    <Content Include="Poppler\poppler-0.68.0\bin\libpixman-1-0.dll" />
-    <Content Include="Poppler\poppler-0.68.0\bin\libpng16-16.dll" />
-    <Content Include="Poppler\poppler-0.68.0\bin\libpoppler-79.dll" />
-    <Content Include="Poppler\poppler-0.68.0\bin\libpoppler-cpp-0.dll" />
-    <Content Include="Poppler\poppler-0.68.0\bin\libstdc++-6.dll" />
-    <Content Include="Poppler\poppler-0.68.0\bin\libtiff3.dll" />
-    <Content Include="Poppler\poppler-0.68.0\bin\pdfdetach.exe" />
-    <Content Include="Poppler\poppler-0.68.0\bin\pdffonts.exe" />
-    <Content Include="Poppler\poppler-0.68.0\bin\pdfimages.exe" />
-    <Content Include="Poppler\poppler-0.68.0\bin\pdfinfo.exe" />
-    <Content Include="Poppler\poppler-0.68.0\bin\pdfseparate.exe" />
-    <Content Include="Poppler\poppler-0.68.0\bin\pdftocairo.exe" />
-    <Content Include="Poppler\poppler-0.68.0\bin\pdftohtml.exe" />
-    <Content Include="Poppler\poppler-0.68.0\bin\pdftoppm.exe" />
-    <Content Include="Poppler\poppler-0.68.0\bin\pdftops.exe" />
-    <Content Include="Poppler\poppler-0.68.0\bin\pdftotext.exe" />
-    <Content Include="Poppler\poppler-0.68.0\bin\pdfunite.exe" />
-    <Content Include="Poppler\poppler-0.68.0\bin\zlib1.dll" />
-    <Content Include="Poppler\poppler-0.68.0\include\poppler\cpp\poppler-document.h" />
-    <Content Include="Poppler\poppler-0.68.0\include\poppler\cpp\poppler-embedded-file.h" />
-    <Content Include="Poppler\poppler-0.68.0\include\poppler\cpp\poppler-font.h" />
-    <Content Include="Poppler\poppler-0.68.0\include\poppler\cpp\poppler-global.h" />
-    <Content Include="Poppler\poppler-0.68.0\include\poppler\cpp\poppler-image.h" />
-    <Content Include="Poppler\poppler-0.68.0\include\poppler\cpp\poppler-page-renderer.h" />
-    <Content Include="Poppler\poppler-0.68.0\include\poppler\cpp\poppler-page-transition.h" />
-    <Content Include="Poppler\poppler-0.68.0\include\poppler\cpp\poppler-page.h" />
-    <Content Include="Poppler\poppler-0.68.0\include\poppler\cpp\poppler-rectangle.h" />
-    <Content Include="Poppler\poppler-0.68.0\include\poppler\cpp\poppler-toc.h" />
-    <Content Include="Poppler\poppler-0.68.0\include\poppler\cpp\poppler-version.h" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
