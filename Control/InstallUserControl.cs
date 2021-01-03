@@ -141,7 +141,7 @@ namespace ExternalFileIns.Control
             //ファイルをコピー
             foreach (var file in Directory.GetFiles(sourcePath))
             {
-                File.Copy(file, Path.Combine(copyPath, Path.GetFileName(file)));
+                File.Copy(file, Path.Combine(copyPath, Path.GetFileName(file)),true);
             }
 
             //ディレクトリの中のディレクトリも再帰的にコピー

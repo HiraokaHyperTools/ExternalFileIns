@@ -10,7 +10,7 @@
 
 !define APP "ExternalFileIns"
 
-!define VER "0.0.01"
+!define VER "0.0.02"
 
 !define COMMAND "/run"
 
